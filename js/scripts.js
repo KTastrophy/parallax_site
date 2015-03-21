@@ -3,9 +3,9 @@ $(document).ready(function(){
         var $currentBackground = $(this);
         var window = self;
         $(window).scroll(function() {
-            var yPos = -($(window).scrollTop() / $currentBackground.data('speed'));
+            var yAxis = -($(window).scrollTop() / $currentBackground.data('speed'));
 
-            var coordinates = '50% '+ yPos + 'px';
+            var coordinates = '50% '+ yAxis + 'px';
 
             $currentBackground.css({ backgroundPosition: coordinates });
         });
