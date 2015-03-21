@@ -3,9 +3,6 @@ body {
    margin: 0;
    color: #536370;
 }
-.wrapper {
-  position: relative;
-}
 
 nav {
   position: fixed;
@@ -130,7 +127,7 @@ nav img.small-logo {
 
 .background-img.bg-img-two {
   background-image: url(../img/scrollimage.png);
-  background-size: 100%;
+  background-size: 130%;
   background-repeat: no-repeat;
   top: 929px;
 }
@@ -151,9 +148,10 @@ nav img.small-logo {
 
 .background-img.bg-img-three {
   background-image: url(../img/scrollimage3.png);
-  background-size: 100%;
+  background-size: 170%;
   background-repeat: no-repeat;
   top: 0;
+  /*transform: translateZ(-100px);*/
 }
 
 .background-img.bg-img-three h3 {
@@ -162,12 +160,14 @@ nav img.small-logo {
   left: 50%;
   top: 250px;
   color: white;
+  /*transform: translateZ(5);*/
 }
 
 .background-img.bg-img-three p {
   position: absolute;
   top: 300px;
   color: white;
+  /*transform: translateZ(5);*/
 }
 
 .text-with-img-grid {
@@ -182,7 +182,7 @@ nav img.small-logo {
 .about-neil {
   height: 900px;
   background-color: white;
-  margin-top: -800px;
+  margin-top: -450px;
   position: relative;
 }
 
@@ -198,3 +198,4 @@ nav img.small-logo {
 .neil {
   margin-left: 300px;
 }
+
