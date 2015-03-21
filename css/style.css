@@ -2,6 +2,8 @@ body {
   font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
    margin: 0;
    color: #536370;
+   max-width: 100%;
+    overflow-x: hidden;
 }
 
 nav {
@@ -31,6 +33,7 @@ nav img.small-logo {
   width: 45px;
   float: left;
 }
+
 
 .background-img {
   height: 929px;
@@ -245,4 +248,7 @@ nav img.small-logo {
 
 textarea {
   resize: none;
+}
+
+.wrapper {
 }
