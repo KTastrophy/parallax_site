@@ -18,7 +18,8 @@ nav {
 
 nav ul {
   position: absolute;
-  left: 40%;
+  left: 50%;
+  transform: translateX(-50%);
   bottom: 0;
 }
 
@@ -30,7 +31,7 @@ nav li{
 }
 
 nav img.small-logo {
-  width: 45px;
+  width: 3em;
   float: left;
 }
 
