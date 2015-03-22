@@ -18,7 +18,8 @@ nav {
 
 nav ul {
   position: absolute;
-  left: 40%;
+  left: 50%;
+  transform: translateX(-50%);
   bottom: 0;
 }
 
