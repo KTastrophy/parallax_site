@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <head>
   <title>Neil Blackwell</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/skeleton.css">
@@ -88,7 +90,7 @@
         <a href="img/iconimage7.png" data-lightbox="icon"><img class="three columns offset-by-one" src="img/iconimage7.png"></a>
         <a href="img/iconimage8.png" data-lightbox="icon"><img class="three columns offset-by-one" src="img/iconimage8.png"></a>
         <div  class="three columns offset-by-one more-div more-tag">
-          <a href="#"><p>More</p></a>
+          <span class="word-in-div">More</span>
         </div>
       </div>
     </div>
@@ -131,9 +133,9 @@
       <form id="contact">
         <input type="text" name="name" placeholder="NAME"><br>
         <input type="text" name="email" placeholder="EMAIL"><br>
+        <textarea name="message" form="contact">MESSAGE</textarea><br>
+        <input type="submit" value="SEND">
       </form>
-      <textarea name="message" form="contact">MESSAGE</textarea><br>
-      <button>SUBMIT</button>
     </div>
   </div>
 </div>
