@@ -8,7 +8,7 @@ body {
 
 nav {
   position: fixed;
-  width: 100%;
+  width: 100vw;
   height: 80px;
   border-bottom: solid black 1px;
   z-index: 1;
@@ -18,7 +18,8 @@ nav {
 
 nav ul {
   position: absolute;
-  left: 40%;
+  left: 50%;
+  transform: translateX(-50%);
   bottom: 0;
 }
 
@@ -30,13 +31,13 @@ nav li{
 }
 
 nav img.small-logo {
-  width: 45px;
+  width: 3em;
   float: left;
 }
 
 
 .background-img {
-  height: 929px;
+  height: 40em;
   position: relative;
 }
 
@@ -44,50 +45,55 @@ nav img.small-logo {
   background-image: url(../img/heroimage.png);
   position: fixed;
   width: 100%;
+  height: 100%;
 }
 
 .background-img.bg-img-one h1 {
   position: absolute;
-  top: 100px;
-  left: 25%;
-  font-size: 78px;
+  top: 3em;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2em;
   margin: 0 auto;
   color: fuchsia;
   text-transform: uppercase;
+  text-align: center;
   }
 
 .background-img.bg-img-one ul {
   position: absolute;
-  top: 300px;
+  top: 15em;
 }
 
 .background-img.bg-img-one .centered-text {
   position: absolute;
-  top: 400px;
+  top: 20em;
+  width: 20em;
 }
 
 .background-img.bg-img-one .page-down-logo {
-  position: absolute;
+/*  position: absolute;
   bottom: 10px;
   height: 52px;
   width: 52px;
   border: solid white 1px;
   border-radius: 50%;
-  left: 50%;
+  left: 50%;*/
 }
 
 .background-img.bg-img-one .page-down-logo:before {
-  content: "V";
+/*  content: "V";
   font-size: 40px;
   position: absolute;
   top: -5%;
   left: 30%;
-  color: white;
+  color: white;*/
 }
 
 .keywords {
   position: absolute;
-  left: 40%;
+  left: 50%;
+  transform: translateX(-50%);
   width: 300px;
   margin: 0 auto;
 }
@@ -97,13 +103,14 @@ nav img.small-logo {
   padding:0;
   margin:0;
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 1.5em;
 }
 
 .centered-text {
   position: absolute;
   width: 537px;
-  left: 30%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .centered-text p {
@@ -111,9 +118,9 @@ nav img.small-logo {
 }
 
 .logo-and-text-panel {
-  height: 547px;
+  height: 40em;
   position: relative;
-  top: 929px;
+  top: 40em;
   background-color: white;
 }
 
@@ -121,80 +128,82 @@ nav img.small-logo {
   padding-top: 20px;
   width: 104px;
   position: absolute;
-  left: 47%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .logo-and-text-panel p {
   top: 200px;
   position: absolute;
+  width: 100%;
 }
 
 .background-img.bg-img-two {
   background-image: url(../img/scrollimage.png);
-  background-size: 130%;
+  background-size: 300%;
   background-repeat: no-repeat;
-  top: 929px;
+  height: 40em;
+  top: 40em;
 }
 
 .background-img.bg-img-two h3 {
   text-transform: uppercase;
   position: absolute;
   left: 50%;
-  top: 250px;
+  transform: translateX(-50%);
+  top: 5em;
   color: white;
 }
 
 .background-img.bg-img-two p {
   position: absolute;
-  top: 300px;
+  top: 15em;
   color: white;
 }
 
 .background-img.bg-img-three {
   background-image: url(../img/scrollimage3.png);
-  background-size: 170%;
+  background-size: 500%;
   background-repeat: no-repeat;
-  top: 0;
-  /*transform: translateZ(-100px);*/
+  height: 100em;
+  top: 30em;
 }
 
 .background-img.bg-img-three h3 {
   text-transform: uppercase;
   position: absolute;
   left: 50%;
-  top: 250px;
+  transform: translateX(-50%);
+  top: 5em;
   color: white;
-  /*transform: translateZ(5);*/
 }
 
 .background-img.bg-img-three p {
   position: absolute;
-  top: 300px;
+  top: 15em;
   color: white;
-  /*transform: translateZ(5);*/
 }
 
 .text-with-img-grid {
-  height: 821px;
+  height: 200em;
   position: relative;
   background-color: white;
-  margin-top: 50%;
+  top: 30em;
 }
 
 .text-with-img-grid p {
-  padding-top: 20px;
-  width: 600px;
-  margin-left: 30%;
+  padding-top: 2em;
+  width: 100%;
   text-align: center;
 }
 
 .text-with-img-grid img {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .more-tag {
-  height: 200px;
+  height: 10em;
   border: solid black 1px;
   text-transform: uppercase;
   font-size: 24px;
@@ -203,37 +212,40 @@ nav img.small-logo {
 
 .word-in-div {
   position: absolute;
-  top: 40%;
-  left: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .about-neil {
-  height: 900px;
+  height: 50em;
   background-color: white;
-  margin-top: -450px;
+  top: -40em;
   position: relative;
 }
 
 .about-neil h3 {
-  margin-top: 200px;
+  top: 10em;
+  padding-top: 1em;
   text-align: center;
   text-transform: uppercase;
 }
 
 .about-neil p {
-  margin-top: 500px;
+  margin-top: 1em;
 }
 
 .neil {
-  margin-left: 300px;
+  padding-top: 18em;
+  width: 100%;
 }
 
 .background-img.bg-img-four {
   background-image: url(../img/contactus.png);
-  background-size: 100%;
-  height: 545px;
+  background-size: 300%;
+  height: 45em;
   background-repeat: no-repeat;
-  top: 0;
+  top: -40em;
   position: relative;
 }
 
@@ -243,6 +255,7 @@ nav img.small-logo {
   height: 100%;
   position: absolute;
   left: 60%;
+  transform: translateX(-60%);
   padding-left: 20px;
   padding-right: 20px;
 }
