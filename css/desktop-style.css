@@ -69,8 +69,9 @@ h3.center {
 
 .background-img.bg-img-one {
   background-image: url(../img/heroimage.png);
+  background-size: cover;
   background-attachment: fixed;
-  width: 100%;
+  background-repeat: no-repeat;
 }
 
 .background-img.bg-img-one h1 {
