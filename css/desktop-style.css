@@ -46,7 +46,7 @@ h3.center {
 }
 .page {
   display: table;
-  min-height: 100%;
+  min-height: 50%;
   width: 100%;
 }
 
@@ -72,6 +72,7 @@ h3.center {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  min-height: 100%;
 }
 
 .background-img.bg-img-one h1 {
@@ -94,15 +95,22 @@ h3.center {
 
 .background-img.bg-img-one .page-down-logo {
   position: relative;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  width: 50px;
+  height: 50px;
+  margin: auto;
 }
 
 .background-img.bg-img-one .page-down-logo:before {
   content: "V";
   font-size: 40px;
   position: absolute;
-  top: -5%;
-  left: 30%;
+  top: -5px;
+  left: 50%;
+  margin-left: -25px;
   color: white;
+  width: 50px;
 }
 
 .keywords {
