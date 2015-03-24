@@ -184,6 +184,7 @@ h3.center {
   padding-top: 20px;
   max-width: 600px;
   text-align: center;
+  margin: auto;
 }
 
 .text-with-img-grid img {
