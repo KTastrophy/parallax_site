@@ -31,9 +31,13 @@ nav li {
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
+  nav {
+    text-align: right;
+  }
   nav li{
     font-size: 12px;
+    padding: 0 5px;
   }
 }
 
@@ -268,9 +272,15 @@ h3.center {
   box-sizing: border-box;
   width: 33%;
   float: left;
-  padding: 40px;
+  padding: 20px;
   display: table;
   position: relative;
+}
+@media screen and (max-width: 560px) {
+  .project {
+    width: 50%;
+
+  }
 }
 .project a {
   border: 2px solid transparent;
